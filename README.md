@@ -20,7 +20,7 @@ AutoFlow is a modern, visual workflow automation platform inspired by n8n and Za
 
 ## 🌐 Deployed Site
 
-[https://autoflow.app](https://autoflow.app)
+Visit the live site: https://autoflowautomation.netlify.app/
 
 ---
 
