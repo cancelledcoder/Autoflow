@@ -338,35 +338,28 @@ export function EnhancedLandingPage() {
           <div className="flex items-center justify-center gap-4 mb-12">
             <Button 
               size="lg" 
-              onClick={() => setCurrentView('builder')}
+              onClick={() => setShowDemo(true)}
               className="bg-gradient-flow hover:opacity-90 text-white font-medium px-8 py-3"
             >
               Start Building Free
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              onClick={() => setShowDemo(true)}
-              className="border-flow-accent text-flow-accent hover:bg-flow-accent/10 px-8 py-3"
-            >
-              <Play className="w-5 h-5 mr-2" />
-              Watch Demo
-            </Button>
           </div>
+        </div>
+      </section>
 
-          {/* Screenshot/Demo */}
-          <div className="relative max-w-5xl mx-auto">
-            <div className="bg-gradient-to-r from-flow-primary/20 to-flow-secondary/20 p-1 rounded-xl">
-              <div className="bg-flow-dark rounded-lg overflow-hidden">
-                <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-20 h-20 bg-gradient-flow rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
-                      <Workflow className="w-10 h-10 text-white" />
-                    </div>
-                    <h3 className="text-xl font-semibold text-flow-text mb-2">Interactive Demo Coming Soon</h3>
-                    <p className="text-slate-400">Experience the power of visual automation</p>
+      {/* Interactive Demo Coming Soon */}
+      <section className="relative py-0 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-gradient-to-r from-flow-primary/20 to-flow-secondary/20 p-1 rounded-xl">
+            <div className="bg-flow-dark rounded-lg overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-flow rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
+                    <Play className="w-10 h-10 text-white" />
                   </div>
+                  <h3 className="text-xl font-semibold text-flow-text mb-2">Interactive Demo Coming Soon</h3>
+                  <p className="text-slate-400">Experience the power of visual automation</p>
                 </div>
               </div>
             </div>
@@ -604,7 +597,7 @@ export function EnhancedLandingPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-gradient-flow rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-white" />
+                <Play className="w-5 h-5 text-white" />
               </div>
               <div>
                 <div className="font-semibold text-flow-text">AutoFlow</div>
@@ -612,8 +605,20 @@ export function EnhancedLandingPage() {
               </div>
             </div>
             <div className="flex items-center gap-6 text-sm text-slate-400">
-              <span>© 2024 Ayush Shah</span>
-              <span>Made with <Heart className="w-4 h-4 text-red-500 inline mx-1" /> in India 🇮🇳</span>
+              <span>© 2025 Ayush Shah</span>
+              <span>
+                Made with <span className="inline mx-1 text-red-500">♥</span> in India 🇮🇳
+              </span>
+              <span>
+                <a
+                  href="https://github.com/cancelledcoder/Autoflow/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-flow-accent hover:underline"
+                >
+                  ⭐ Star us on GitHub
+                </a>
+              </span>
             </div>
           </div>
         </div>
