@@ -382,10 +382,9 @@ export function WorkflowBuilder() {
   }
 
   const handleUpgradeToPremium = () => {
-    console.log("Opening PayPal payment for premium upgrade")
-    // PayPal payment link with the specified email
-    const paypalLink = `https://www.paypal.com/paypalme/ayushbusinessmail/24.99USD`
-    window.open(paypalLink, '_blank')
+    // Razorpay payment integration placeholder
+    // Example: open Razorpay checkout here
+    alert("Razorpay Integration: Open payment modal for premium upgrade");
   }
 
   const handleOnboardingComplete = () => {
@@ -457,14 +456,14 @@ export function WorkflowBuilder() {
                     <span className="text-sm font-medium text-flow-text">Upgrade to Premium</span>
                   </div>
                   <p className="text-xs text-slate-400 mb-2">
-                    Unlock AI assistant, team collaboration, and 25+ premium features
+                    Unlock AI assistant, team collaboration, analytics, and 50+ integrations with Premium for just ₹1,699/mo
                   </p>
                   <Button 
                     size="sm" 
                     onClick={handleUpgradeToPremium}
                     className="w-full bg-gradient-flow hover:opacity-90 text-white"
                   >
-                    Upgrade for $24.99
+                    Upgrade for ₹1,699/mo
                   </Button>
                 </div>
               )}

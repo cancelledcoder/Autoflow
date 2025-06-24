@@ -139,7 +139,7 @@ export function PremiumFeatures({ isPremium, onUpgrade }: PremiumFeaturesProps) 
                   <Crown className="w-8 h-8 text-flow-primary mx-auto mb-2" />
                   <h3 className="font-semibold text-flow-text mb-2">Upgrade to Premium</h3>
                   <p className="text-xs text-slate-400 mb-3">
-                    Unlock all features for just $24.99
+                    Unlock all features for just ₹1,699/mo
                   </p>
                   <Button 
                     onClick={onUpgrade} 

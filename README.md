@@ -78,7 +78,7 @@ Unlock advanced features with a one-time payment:
 - Mobile PWA
 - Enterprise security
 
-**Pricing:** $24.99 (one-time) or [see Indian pricing](#)
+**Pricing:** ₹1,699/- Only
 
 ---
 

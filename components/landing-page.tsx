@@ -37,11 +37,9 @@ export function LandingPage() {
   }
 
   const handlePayment = () => {
-    console.log("Opening PayPal payment for premium membership")
-    // PayPal payment link with the specified email and amount
-    const paypalLink = `https://www.paypal.com/paypalme/ayushbusinessmail/24.99USD`
-    window.open(paypalLink, '_blank')
-    setShowPayment(true)
+    // Razorpay payment integration placeholder
+    // Example: open Razorpay checkout here
+    alert("Razorpay Integration: Open payment modal for premium membership");
   }
 
   return (
